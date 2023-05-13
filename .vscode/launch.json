@@ -7,7 +7,8 @@
             "cwd": "${workspaceFolder}",
             // "program": "finder-app/finder.sh",
             "program": "${command:SelectScriptName}",
-            "args": ["conf", "spencer"]
+            // "args": ["conf", "spencer"] // For finder.sh
+            "args": ["~/assignment-1-spencermanning/finder-app/check/test.txt", "asdf"] // For writer.sh
         },
         // {
         //     "type": "bashdb",
