@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug (select script from list of sh files)",
+            "cwd": "${workspaceFolder}",
+            // "program": "finder-app/finder.sh",
+            "program": "${command:SelectScriptName}",
+            "args": ["conf", "spencer"]
+        },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash simple",
+        //     "cwd": "${workspaceFolder}",
+        //     "program": "${file}",
+        //     "terminalKind": "integrated"
+        // }
+    ]
+}
